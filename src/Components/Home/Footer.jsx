@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <img src={img29} alt="Northway Global Logo" className="footer-logo" />
-          <p>Travel Blog Elementor Template Kit. Powered by Design8. All rights reserved.</p>
+          <p style={{color:'white'}}>Travel Blog Elementor Template Kit. Powered by Design8. All rights reserved.</p>
           <div className="footer-socials">
             <FaFacebookF />
             <FaInstagram />
@@ -34,21 +34,21 @@ const Footer = () => {
             <li>How to Apply to Foreign Universities</li>
           </ul>
         </div>
-        <div className="footer-section">
-          <h4>Contact Us</h4>
-          <p>
+        <div className="footer-section" style={{color:'white'}}>
+          <h4 style={{color:'white'}}>Contact Us</h4>
+          <p style={{color:'white'}}>
             <FaMapMarkerAlt className="footer-icon" /> Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near American Embassy)
           </p>
-          <p>
+          <p style={{color:'white'}}>
             <FaPhoneAlt className="footer-icon" /> +880 1607-002687
           </p>
-          <p>
-            <FaEnvelope className="footer-icon" /> info@northwayglobal.com.bd
+          <p style={{color:'white'}}>
+            <FaEnvelope className="footer-icon" style={{color:'white'}} /> info@northwayglobal.com.bd
           </p>
         </div>
       </div>
-      <div className="footer-bottom">
-        <p>Designed and Developed By Ethical Den</p>
+      <div className="footer-bottom" style={{color:'white'}}>
+        <p style={{color:'white'}}>Designed and Developed By Ethical Den</p>
       </div>
     </footer>
   );

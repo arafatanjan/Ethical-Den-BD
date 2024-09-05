@@ -5,6 +5,9 @@ import img24 from "../../assets/image25.png";
 const CostOfEducation = () => {
   return (
     <div className="cost-education-container">
+        <div className="image-container">
+        <img src={img24} alt="Cost of Education" className="cost-image" />
+      </div>
       <div className="cost-education-content">
         <h2 className="cost-title">
           <span className="highlight">Cost</span> of education
@@ -23,9 +26,7 @@ const CostOfEducation = () => {
           <li>Visa Fees (Visa & SEVIS) 535</li>
         </ul>
       </div>
-      <div className="image-container">
-        <img src={img24} alt="Cost of Education" className="cost-image" />
-      </div>
+      
     </div>
   );
 };

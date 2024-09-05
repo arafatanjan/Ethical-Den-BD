@@ -15,6 +15,7 @@
   .usa-overview-table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
   }
   
   .usa-overview-table th, .usa-overview-table td {
