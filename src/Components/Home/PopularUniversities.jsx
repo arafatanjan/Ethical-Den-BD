@@ -1,31 +1,37 @@
 import React from 'react';
 import "./PopularUniversities.css"
+import img15 from "../../assets/Frame 130.png";
+import img16 from "../../assets/Frame 131.png";
+import img17 from "../../assets/Frame 132.png";
+import img18 from "../../assets/Frame 133.png";
+import img19 from "../../assets/Frame 134.png";
+import img20 from "../../assets/Frame 135.png";
 
 const PopularUniversities = () => {
     const universities = [
         {
           id: 1,
-          logo: 'src/assets/Frame 130.png' 
+          logo: img15 
         },
         {
           id: 2,
-          logo: 'src/assets/Frame 131.png' 
+          logo: img16 
         },
         {
           id: 3,
-          logo: 'src/assets/Frame 132.png' 
+          logo: img17
         },
         {
           id: 4,
-          logo: 'src/assets/Frame 133.png' 
+          logo: img18 
         },
         {
           id: 5,
-          logo: 'src/assets/Frame 134.png' 
+          logo: img19 
         },
         {
           id: 6,
-          logo: 'src/assets/Frame 135.png' 
+          logo: img20 
         }
       ];
 

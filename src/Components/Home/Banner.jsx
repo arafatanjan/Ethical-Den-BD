@@ -1,10 +1,11 @@
 import React from 'react';
-import './Banner.css';
+
+import img4 from "../../assets/Banner.png";
 
 const Banner = () => {
     return (
         <div>
-               <img src='/src/assets/Banner.png' alt='banner' />
+               <img src={img4} alt='banner' />
         </div>
     );
 };

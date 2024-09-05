@@ -1,5 +1,6 @@
 import React from 'react';
 import './CostOfEducation.css';
+import img24 from "../../assets/image25.png";
 
 const CostOfEducation = () => {
   return (
@@ -23,7 +24,7 @@ const CostOfEducation = () => {
         </ul>
       </div>
       <div className="image-container">
-        <img src="/src/assets/image25.png" alt="Cost of Education" className="cost-image" />
+        <img src={img24} alt="Cost of Education" className="cost-image" />
       </div>
     </div>
   );

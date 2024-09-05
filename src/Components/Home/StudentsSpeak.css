@@ -1,0 +1,119 @@
+
+.student-speak-section {
+    background: #f9f9f9;
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+    height: 100%;
+  }
+  
+   .student-speak-section-container {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  } 
+  
+  .student-speak-section-background-image {
+    background: url('/src/assets/Rectangle 4.png') no-repeat center center/cover;
+    width: 100%;
+   
+    overflow: hidden; 
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    
+  }
+  
+  .section-title span {
+    color: #f89c1c; 
+  }
+  
+  .section-description {
+    color: #666;
+    margin: 10px 0 30px;
+    font-size: 1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .student-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    margin-top: 5rem;
+  }
+  
+  .student-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .larger-card {
+    transform: scale(1.2); 
+  }
+  
+  .student-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .student-image {
+    position: relative;
+  }
+  
+  .student-image img {
+    width: 100%;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: url('path_to_play_button_image') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .student-card h3 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .student-card p {
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .nav-buttons button {
+    background-color: #f89c1c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #d9780e;
+  }
+  
+  

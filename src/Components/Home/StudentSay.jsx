@@ -1,5 +1,8 @@
 import React from 'react';
 import "./StudentSay.css"
+import img21 from "../../assets/Ellipse 2.png";
+import img22 from "../../assets/Ellipse 2 (1).png";
+import img23 from "../../assets/Ellipse 2 (2).png";
 
 const testimonials = [
     {
@@ -8,7 +11,7 @@ const testimonials = [
       role: 'Student',
       testimonial:
         'We are the representatives of more than 30+ universities in Australian countries and our admission.',
-      image: 'path_to_image1', 
+      image: img21, 
       rating: 5,
     },
     {
@@ -17,7 +20,7 @@ const testimonials = [
       role: 'Student',
       testimonial:
         'We are the representatives of more than 30+ universities in Australian countries and our admission.',
-      image: 'path_to_image2', 
+      image: img22, 
       rating: 5,
     },
     {
@@ -26,7 +29,7 @@ const testimonials = [
       role: 'Student',
       testimonial:
         'We are the representatives of more than 30+ universities in Australian countries and our admission.',
-      image: 'path_to_image3', 
+      image: img23, 
       rating: 5,
     },
   ];
@@ -47,7 +50,7 @@ const StudentSay = () => {
               <p className="testimonial-text">“{testimonial.testimonial}”</p>
               <div className="testimonial-rating">
                 {'★'.repeat(testimonial.rating)}{' '}
-                {/* Displays the rating in stars */}
+                
               </div>
               <div className="testimonial-author">
                 <img

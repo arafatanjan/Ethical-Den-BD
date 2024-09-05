@@ -1,13 +1,14 @@
 import React from 'react';
 import './Footer.css';
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import img29 from "../../assets/Logo (1).png";
 
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-section">
-          <img src="/src/assets/Logo (1).png" alt="Northway Global Logo" className="footer-logo" />
+          <img src={img29} alt="Northway Global Logo" className="footer-logo" />
           <p>Travel Blog Elementor Template Kit. Powered by Design8. All rights reserved.</p>
           <div className="footer-socials">
             <FaFacebookF />

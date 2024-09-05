@@ -1,9 +1,10 @@
-/* CostOfEducation.css */
+
 .cost-education-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    margin:0 10%;
     background-color: #f9f9f9;
   }
   

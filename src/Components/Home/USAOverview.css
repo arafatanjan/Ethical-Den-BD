@@ -1,8 +1,9 @@
-/* USAOverview.css */
+
 .usa-overview-container {
     text-align: center;
     font-family: Arial, sans-serif;
     padding: 20px;
+    margin: 0 10%;
   }
   
   .title {

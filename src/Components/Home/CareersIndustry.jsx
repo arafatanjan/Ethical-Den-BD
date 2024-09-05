@@ -1,5 +1,6 @@
 import React from 'react';
 import './CareersIndustry.css';
+import img14 from "../../assets/image28.png";
 
 const CareersIndustry = () => {
   return (
@@ -21,7 +22,7 @@ const CareersIndustry = () => {
         </a>
       </div>
       <div className="image-section">
-        <img src="/src/assets/image28.png" alt="Careers & Industry" />
+        <img src={img14} alt="Careers & Industry" />
       </div>
     </div>
   );

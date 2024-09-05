@@ -1,12 +1,13 @@
 import React from 'react';
 import "./WhyUsa.css"
+import img13 from "../../assets/image21.png";
 
 const WhyUsa = () => {
     return (
         <section className="why-study-usa">
         <div className="why-study-usa-container">
           <div className="why-study-usa-image">
-            <img src="src/assets/image21.png" alt="Why Study in USA?" />
+            <img src={img13} alt="Why Study in USA?" />
           </div>
           <div className="why-study-usa-content">
             <h2 className="why-study-title">
