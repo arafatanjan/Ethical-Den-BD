@@ -1,0 +1,79 @@
+.why-study-usa {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: 0 10%;
+  }
+  
+  .why-study-usa-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .why-study-usa-image img {
+    width: 100%;
+  }
+  
+  .why-study-usa-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15%;
+  }
+  
+  .why-study-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #f4a261;
+  }
+  
+  .why-study-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 1rem 0;
+  }
+  
+  .quick-facts-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .quick-facts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-facts-list li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    color: #f4a261;
+    margin-right: 0.5rem;
+  }
+  
+  .see-more-button {
+    margin-top: 1rem;
+    padding: 2% ;
+    background-color: #f4a261;
+    color: white;
+    width: 25%;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  

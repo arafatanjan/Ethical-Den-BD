@@ -1,0 +1,43 @@
+/* USAOverview.css */
+.usa-overview-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #f97316;
+    margin-bottom: 20px;
+  }
+  
+  .usa-overview-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .usa-overview-table th, .usa-overview-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .usa-overview-table th {
+    background-color: #f97316;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .usa-overview-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .usa-overview-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .usa-overview-table td {
+    font-size: 1em;
+    color: #333;
+  }
+  

@@ -1,0 +1,57 @@
+/* CostOfEducation.css */
+.cost-education-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .cost-education-content {
+    max-width: 50%;
+  }
+  
+  .cost-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #f97316;
+  }
+  
+  .description {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cost-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .cost-list li {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    color: #f97316;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    max-width: 40%;
+  }
+  
+  .cost-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
